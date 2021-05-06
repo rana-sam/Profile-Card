@@ -1,0 +1,123 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    height: 330px;
+    width: 250px;
+    /* border: 1px solid wheat; */
+    box-shadow: 0px 5px 15px rgba(14, 13, 13, 0.1);
+    border-radius: 10px;
+}
+.top{
+    display: block;
+    background-color: rgb(49, 59, 155);
+    height: 80px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.detail{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -35px;
+    /* left: 33%; */
+    justify-content: center;
+    align-items: center;
+}
+.detail img{
+    height: 90px;
+    width: 90px;
+    cursor: pointer;
+    border-radius: 50%;
+    border:5px solid #fafafa;
+}
+.detail h4{
+    color: teal;
+}
+.detail span{
+    font-weight: 20;
+    font-size: 0.8rem;
+}
+.folo{
+    
+    display: flex;
+    justify-content: space-around;
+}
+.folo span{
+    font-size: 17px;
+    color: rgb(49, 59, 155);
+}
+.folo p{
+    margin-left: 10px;
+    font-size: 17px;
+}
+.folowing p{
+    margin-left: 5px;
+}
+.button{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+}
+.btn1 button{
+    cursor: pointer;
+    background-color: rgb(49, 59, 155);
+    color: white;
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2PX solid rgb(49, 59, 155);
+    
+}
+.btn2 button{
+    color: rgb(49, 59, 155);
+    background-color: white;
+    cursor: pointer;
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2PX solid rgb(49, 59, 155);
+    
+}
+.color{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 250px;
+    margin-top: 30px;
+    box-shadow:  5px 5px 15px rgba(14, 13, 13, 0.1);
+}
+#box{
+    cursor: pointer;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    box-shadow: 0px 5px 15px rgba(14, 13, 13, 0.1);
+}
+.box1{
+    background-color: hotpink;
+}
+.box2{
+    background-color: mediumaquamarine;
+}
+.box3{
+    background-color: mediumblue;
+}
+.box4{
+    background-color: indigo;
+}
+.box5{
+    background-color: lightcoral;
+}
