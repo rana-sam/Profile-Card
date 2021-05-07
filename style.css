@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+body{
+    font-family: poppins,Arial, Helvetica, sans-serif;
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -16,7 +20,7 @@
     height: 330px;
     width: 250px;
     /* border: 1px solid wheat; */
-    box-shadow: 0px 5px 15px rgba(14, 13, 13, 0.1);
+    box-shadow: 0px 5px 15px rgb(49, 59, 155);
     border-radius: 10px;
 }
 .top{
